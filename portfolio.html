@@ -10,28 +10,27 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 
-
+     <link rel="stylesheet" href="css/animate.css">
     <link href="https://fonts.googleapis.com/css?family=Raleway:400,400i,700&amp;subset=latin-ext" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.css" />
-    <link rel="stylesheet" href="css/animate.css">
-    <link rel="stylesheet" href="css/animate1.css">
+    <link rel="shortcut icon" type="image/png" href="images/favicon.ico"/>
 </head>
-<body>
+<body  data-spy="scroll" data-target="#navbar-example">
 
 
 <!-- ------------------------ NAVIGATION ------------------------ -->
 
 <header>
-<nav class="navbar navbar-expand-sm navbar-light fixed-top">
-   <div class="container navigation-1">
-   <a href="#about" class="nav-link">Igor Grabowski</a>
+<nav class="navbar navbar-expand-sm navbar-light fixed-top" id="navbar-example">
+   <div class="container-fluid navigation-1">
+   <a href="#about" class="nav-link text-uppercase">Igor Grabowski</a>
    <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
        <span class="navbar-toggler-icon"></span>
    </button>
    <div class="collapse navbar-collapse" id="navbarMenu">
       <ul class="navbar-nav ml-auto">
-                <li class="nav-item active">
+                <li class="nav-item">
                     <a href="#about" class="nav-link">O mnie</a>
                 </li>
                  <li class="nav-item">
@@ -58,7 +57,7 @@
         <div class="row-home text-center">
             <div class="col-lg-12 col-home">
                 <h1 class="col-home__heading-primary">Igor Grabowski</h1>
-                <button type="button" class="col-home__button btn btn-light">O mnie</button>
+                <button type="button" class="col-home__button btn btn-light" id="button-home">O mnie</button>
             </div>
              <a href="#about" class="scrollable">
 				<span id="scroll"></span>
@@ -69,19 +68,20 @@
 
 <!-- ------------------------ SECTION ABOUT ------------------------ -->
 
-    <section class="about-me">
+    <section class="about-me" id="about">
         <div class="container-fluid">
             <div class="row-about-1">
-                <div class="row-about-1__col-about col-md-12 col-lg-5 offset-lg-1 my-4">
+                <div class="row-about-1__col-about col-lg-6  my-4 text-center">
                     <figure class="col-about-1__figure">
-                      <img src="images/s3img3.png" class="figure__img-1 img-fluid" alt="my-photo">
+                      <img src="images/photo1.png" class="figure__img-1 img-fluid" alt="my-photo">
                     </figure>
                 </div>
-                <div class="row-about-1__col-about col-md-12 col-lg-5 offset-lg-1 my-4 ">
+                <div class="row-about-1__col-about col-lg-6  my-4 ">
                     <h2 class="col-about__heading-secondary">O mnie</h2>
                     <p class="col-about__text ">
-                        Abore Cahee magna aliqua. Ut enim ad minim veniam, quis <br> nostrud exercitation ullamco laboris nisi ut aliquip ex ea <br> commodo consequat. Duis aute irure dolor in reprehenderit <br> in voluptate velit esse cillum.
-                    </p>
+                        Cześć, skończyłem studia chemiczne w Warszawie. Jestem samoukiem i swoją wiedzę czerpie z kursów internetowych oraz książek. <br> W moich projektach wykorzystuje: HTML5, CSS3, Sass, Bootstrap 4, JavaScript i jQuery. 
+                         <br>Moim głównym celem jest obecnie zdobycie doświadczenia oraz rozwinięcie swoich umiejętności. <br>
+                        A tak poza tym w wolnym czasie interesuje się varsavianistyką, malarstwem i  gram w unihokeja.
                 </div>
             </div>
         </div>
@@ -89,57 +89,57 @@
    
 <!-- ------------------------ SECTION SKILLS ------------------------ -->
 
-   <section class="skills">
+   <section class="skills" id="skills">
        <div class="container-fluid">
            <div class="row-skills-1 row">
                <div class="col-sm-12 row-skills-1__col-skills">
                       <h2 class="col-skills__heading-secondary">Umiejętności</h2>
                </div>
            </div>
-           <div class="row-skills-2 row">
-               <div class="row-skills-2__col-skills col-sm-6 col-md-4">
+           <div class="row-skills-2 row  ">
+               <div class="row-skills-2__col-skills col-sm-12 col-md-4 ">
                     <div class= "col-skills__technologies">
                         <i class="technologies__icons fab fa-html5"></i>
                     </div>
-                    <h3 class="col-skills__heading-tertiary text-uppercase">html5</h3>
-                    <p class="col-skills__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, deleniti?</p>
+                    <h3 class="col-skills__heading-tertiary text-uppercase text-align-right">html5</h3>
+                    <p class="col-skills__text"> Staram się pisać się kod zgodny z zasadami semantyki. Dokładam wszelki starań, aby był czytelny i zrozumiały.</p>
                </div>
-                    <div class="row-skills-2__col-skills col-sm-6 col-md-4">
+                    <div class="row-skills-2__col-skills col-sm-12 col-md-4">
                     <div class= "col-skills__technologies">
                         <i class="technologies__icons fab fa-css3-alt"></i>
                     </div>
                     <h3 class="col-skills__heading-tertiary text-uppercase ">css3</h3>
-                    <p class="col-skills__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, deleniti?</p>
+                    <p class="col-skills__text">Znam selektory oraz pseudoklasy. Swobodnie korzystam z animacji.</p>
                </div>
-                    <div class="row-skills-2__col-skills col-sm-6 col-md-4">
+                    <div class="row-skills-2__col-skills col-sm-12 col-md-4">
                     <div class= "col-skills__technologies">
                         <i class="technologies__icons fab fa-js"></i>
                     </div>
                     <h3 class="col-skills__heading-tertiary">JavaScript</h3>
-                    <p class="col-skills__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, deleniti?</p>
+                    <p class="col-skills__text">Znam podstawy. Typy danych, operatory, instrukcje warunkowe, pętle, tablice, obiekty i funkcje.</p>
                </div>
            </div>
        <div class="row-skills-3 row">
-               <div class="row-skills-3__col-skills col-sm-6 col-md-4">
+               <div class="row-skills-3__col-skills col-sm-12 col-md-4">
                     <div class= "col-skills__technologies">
-                        <i class="technologies__icons fab fa-sass"></i>
+                        <img src="images/jquery_logo.png" class="col-technologies__logo img-fluid" alt="jQuery logo">
                     </div>
                     <h3 class="col-skills__heading-tertiary">jQuery</h3>
-                    <p class="col-skills__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, deleniti?</p>
+                    <p class="col-skills__text">Modyfikuje i wykorzystuje gotowe rozwiązania.</p>
                </div>
-                    <div class="row-skills-3__col-skills col-sm-6 col-md-4">
+                    <div class="row-skills-3__col-skills col-sm-12 col-md-4">
                     <div class= "col-skills__technologies">
-                        <i class="technologies__icons fab fa-sass"></i>
+                        <img src="images/bootstrap_logo.png" class="col-technologies__logo img-fluid" alt="Bootstrap logo">
                     </div>
                     <h3 class="col-skills__heading-tertiary">Bootstrap 4 </h3>
-                    <p class="col-skills__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, deleniti?</p>
+                    <p class="col-skills__text">Wykorzystuje możliwości jakie daje Bootstrap 4, co przyspiesza pracę nad stronami.</p>
                </div>
-                    <div class="row-skills-3__col-skills col-sm-6 col-md-4">
+                    <div class="row-skills-3__col-skills col-sm-12 col-md-4">
                     <div class= "col-skills__technologies">
                         <i class="technologies__icons fab fa-sass"></i>
                     </div>
                     <h3 class="col-skills__heading-tertiary">Sass</h3>
-                    <p class="col-skills__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, deleniti?</p>
+                    <p class="col-skills__text">Portrafię definiować zmienne i stosuje mixiny.</p>
                </div>
            </div>
        </div>
@@ -148,7 +148,7 @@
     
 <!-- ------------------------ SECTION PROJECTS ------------------------ -->
 
-<section class="projects">
+<section class="projects" id="projects">
     <div class="container-fluid">
            <div class="row-projects-1 row">
                <div class="col-sm-12 row-projects-1__col-projects">
@@ -160,127 +160,155 @@
 <div class="row-projects-2 row">
 <div class="col-lg-6 row-projects-2__col-projects">
     <div class="col-projects__project ">
-		<div class="project__content  bg-two">
-			     <p class="content__text-1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, quis.</p>
+		<div class="project__content  bg-one">
+			     <p class="content__text-1">Strona powstała w ramach Weekly Web Dev Challenge-16 <br> na podstawie szablonu PSD.</p>
                  <button type="button" class="content__button-1 btn btn-warning">
-                  <a href="#" target="_blank" class="content__button-1--link">Live</a>
+                  <a href="https://igor27g.github.io/WebDeveloper_Challenge_16/" target="_blank" class="content__button-1--link">Live</a>
                  </button>
                   <button type="button" class="content__button-2 btn btn-warning ">
-                  <a href="#" target="_blank" class="content__button-2--link">Code</a>
+                  <a href="https://github.com/igor27g/WebDeveloper_Challenge_16" target="_blank" class="content__button-2--link">Code</a>
                  </button>
-                <p class="content__text-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, quis.</p>
+                <p class="content__text-2">Użyte technologie: HTML5, CSS3, Sass, Bootstrap 4, jQuery.</p>
 		</div>
 	</div>
 </div>
 
 <div class="col-lg-6 row-projects-2__col-projects">
- 
     <div class="col-projects__project ">
 		<div class="project__content  bg-two">
-			     <p class="content__text-1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, quis.</p>
+			     <p class="content__text-1">Strona powstała w ramach Weekly Web Dev Challenge-2 <br> na podstawie szablonu PSD.</p>
                  <button type="button" class="content__button-1 btn btn-warning">
-                  <a href="#" target="_blank" class="content__button-1--link">Live</a>
+                  <a href="https://igor27g.github.io/WebDeveloper_Challenge_2/" target="_blank" class="content__button-1--link">Live</a>
                  </button>
                   <button type="button" class="content__button-2 btn btn-warning ">
-                  <a href="#" target="_blank" class="content__button-2--link">Code</a>
+                  <a href="https://github.com/igor27g/WebDeveloper_Challenge_2" target="_blank" class="content__button-2--link">Code</a>
                  </button>
-                <p class="content__text-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, quis.</p>
+                <p class="content__text-2">Użyte technologie: HTML5, CSS3, Bootstrap 4, jQuery.</p>
 		</div>
 	</div>
-
 </div>
 </div>
-
-
 
 <div class="row-projects-2 row">
 <div class="col-lg-6 row-projects-2__col-projects">
     <div class="col-projects__project ">
-		<div class="project__content  bg-two">
-			     <p class="content__text-1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, quis.</p>
+		<div class="project__content  bg-three">
+			     <p class="content__text-1">Prosta gra typu: memory-game.</p>
                  <button type="button" class="content__button-1 btn btn-warning">
-                  <a href="#" target="_blank" class="content__button-1--link">Live</a>
+                  <a href="https://igor27g.github.io/Memory_Game_Klimt/" target="_blank" class="content__button-1--link">Live</a>
                  </button>
                   <button type="button" class="content__button-2 btn btn-warning ">
-                  <a href="#" target="_blank" class="content__button-2--link">Code</a>
+                  <a href="https://github.com/igor27g/Memory_Game_Klimt" target="_blank" class="content__button-2--link">Code</a>
                  </button>
-                <p class="content__text-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, quis.</p>
+                <p class="content__text-2">Użyte technologie: HTML5, CSS3, JavaScript, jQuery.</p>
 		</div>
 	</div>
 </div>
 
 <div class="col-lg-6 row-projects-2__col-projects">
- 
     <div class="col-projects__project ">
-		<div class="project__content  bg-two">
-			     <p class="content__text-1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, quis.</p>
+		<div class="project__content  bg-four">
+			     <p class="content__text-1">Gra Rock-Paper-Scissors.</p>
                  <button type="button" class="content__button-1 btn btn-warning">
-                  <a href="#" target="_blank" class="content__button-1--link">Live</a>
+                  <a href="https://igor27g.github.io/Rock_Paper_Scissors_Game/" target="_blank" class="content__button-1--link">Live</a>
                  </button>
                   <button type="button" class="content__button-2 btn btn-warning ">
-                  <a href="#" target="_blank" class="content__button-2--link">Code</a>
+                  <a href="https://github.com/igor27g/Rock_Paper_Scissors_Game" target="_blank" class="content__button-2--link">Code</a>
                  </button>
-                <p class="content__text-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, quis.</p>
+                <p class="content__text-2">Użyte technologie: HTML5, CSS3, JavaScript.</p>
 		</div>
 	</div>
-
 </div>
 </div>
-
-
 
 <div class="row-projects-2 row">
 <div class="col-lg-6 row-projects-2__col-projects">
     <div class="col-projects__project ">
-		<div class="project__content  bg-two">
-			     <p class="content__text-1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, quis.</p>
+		<div class="project__content  bg-five">
+			     <p class="content__text-1">Strona powstała na podstawie szablonu PSD.</p>
                  <button type="button" class="content__button-1 btn btn-warning">
-                  <a href="#" target="_blank" class="content__button-1--link">Live</a>
+                  <a href="https://igor27g.github.io/PSD_to_HTML/" target="_blank" class="content__button-1--link">Live</a>
                  </button>
                   <button type="button" class="content__button-2 btn btn-warning ">
-                  <a href="#" target="_blank" class="content__button-2--link">Code</a>
+                  <a href="https://github.com/igor27g/PSD_to_HTML" target="_blank" class="content__button-2--link">Code</a>
                  </button>
-                <p class="content__text-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, quis.</p>
+                <p class="content__text-2">Użyte technologie: HTML5, CSS3.</p>
 		</div>
 	</div>
 </div>
 
 <div class="col-lg-6 row-projects-2__col-projects">
-
     <div class="col-projects__project ">
-		<div class="project__content  bg-two">
-			     <p class="content__text-1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, quis.</p>
+		<div class="project__content  bg-six">
+			     <p class="content__text-1">Moje portfolio.</p>
                  <button type="button" class="content__button-1 btn btn-warning">
                   <a href="#" target="_blank" class="content__button-1--link">Live</a>
                  </button>
                   <button type="button" class="content__button-2 btn btn-warning ">
                   <a href="#" target="_blank" class="content__button-2--link">Code</a>
                  </button>
-                <p class="content__text-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, quis.</p>
+                <p class="content__text-2">Użyte technologie: HTML5, CSS3, Sass, Bootstrap 4, jQuery.</p>
 		</div>
 	</div>
-
 </div>
 </div>
-	
-
-    
-    
-    
-    
-    
+	 
     </div>
 </section>
 
 
+<!-- ------------------------ SECTION CONTACT ------------------------ -->
+
+ <section class="section-contact" id="contact">
+       <div class="container-fluid">
+           <div class="row-contact-1 row text-center">
+               <div class="col-sm-12 row-contact-1__col-contact">
+                      <h2 class="col-contact__heading-secondary">Kontakt</h2>
+               </div>
+           </div>
+           
+<div class="row-contact-2 row">
+    <div class="col-lg-6 row-contact-2__col-contact">
+
+   
+
+    </div>
+    <div class="col-lg-6 row-contact-2__col-contact">
+        <div class="col-contact__github">
+            <i class="github__icon fab fa-github-square"></i>
+            <a href="https://github.com/igor27g" target="_blank" class="github--link">Github</a>
+        </div>
+        <div class="col-contact__linkedin">
+            <i class="linkedin__icon fab fa-linkedin"></i>
+            <a href="https://www.linkedin.com/in/igorgrabowski/" target="_blank" class="linkedin--link">Linkedin</a>
+        </div>
+         <div class="col-contact__linkedin">
+            <i class="linkedin__icon far fa-file"></i>
+            <a href="#" target="_blank" class="linkedin--link">CV</a>
+        </div>
+        
+        <div class="col-contact__mail">
+            <i class="mail__icon fas fa-envelope-square"></i>
+            <p class="mail__text">przykladowy@gmail.com</p>
+        </div>
+        <div class="col-contact__number">
+            <i class="number__icon fas fa-mobile-alt"></i>
+            <p class="number__text">123-456-789</p>
+        </div>
+</div>
+</div>
+        </div>
+   </section>
 </main>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 <script
   src="https://code.jquery.com/jquery-3.3.1.js"
   integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
   crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"> </script>
+<script src="js/waypoint.js"></script>
 <script src="js/jquery.waypoints.js"></script>
 <script src="js/script.js"></script>
 </body>
