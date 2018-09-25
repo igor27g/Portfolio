@@ -10,11 +10,6 @@ section {
   height: 100vh;
   margin-top: 60px; }
 
-section.home {
-  background-image: linear-gradient(to right bottom, rgba(97, 149, 204, 0.8), rgba(28, 92, 159, 0.8)), url(../images/bg1.png);
-  background-size: cover;
-  background-position: center; }
-
 .container {
   height: inherit; }
 
@@ -40,6 +35,12 @@ section.home {
 /* ----------------------------------------------- */
 /* SECTION-HOME */
 /* ----------------------------------------------- */
+section.home {
+  background-image: linear-gradient(to right bottom, rgba(97, 149, 204, 0.8), rgba(28, 92, 159, 0.8)), url(../images/bg1.png);
+  background-size: cover;
+  background-position: center;
+  margin-top: 56px; }
+
 .row-home {
   height: inherit;
   display: flex;
@@ -124,6 +125,9 @@ section.about-me {
   height: 60vh;
   background-color: #F2F4FF; }
 
+@media (max-width: 992px) {
+  section.about-me {
+    height: 100%; } }
 .row-about-1 {
   height: inherit;
   display: flex;
@@ -133,21 +137,21 @@ section.about-me {
 .figure__img-1 {
   border-radius: 100%; }
 
-.col-about__heading-secondary {
+.col-about-2__heading-secondary {
   font-size: 40px;
   color: #6195CC;
   text-transform: uppercase;
   margin-bottom: 20px; }
-.col-about__text {
+.col-about-2__text {
   font-size: 20px;
   color: #6195CC; }
 
 @media (max-width: 576px) {
-  .col-about__text {
+  .col-about-2__text {
     font-size: 18px;
     color: #6195CC; } }
 @media (max-width: 416px) {
-  .col-about__text {
+  .col-about-2__text {
     font-size: 15px; } }
 /* ----------------------------------------------- */
 /* SECTION-SKILLS */
@@ -155,7 +159,7 @@ section.about-me {
 section.skills {
   background-color: #6195CC;
   height: 100vh;
-  margin-top: 20px; }
+  margin-top: 0; }
 
 .row-skills-1,
 .row-skills-2,
@@ -461,16 +465,16 @@ p.content__text-2 {
 
 .col-contact-1__name {
   color: #000000;
-  padding-left: 5px;
+  padding: 5px;
   margin-top: 10px;
   margin-bottom: 10px; }
 .col-contact-1__message {
   resize: none;
-  padding-left: 5px;
+  padding: 5px;
   margin-top: 10px;
   margin-bottom: 10px; }
 .col-contact-1__email {
-  padding-left: 5px;
+  padding: 5px;
   margin-top: 10px;
   margin-bottom: 10px; }
 .col-contact-1__button-1 {
@@ -507,7 +511,7 @@ i.number__icon {
 
 a.github--link,
 a.CV--link {
-  font-size: 35px;
+  font-size: 30px;
   color: #F2F4FF; }
   a.github--link:hover,
   a.CV--link:hover {
@@ -516,7 +520,7 @@ a.CV--link {
 
 p.mail__text,
 p.number__text {
-  font-size: 35px;
+  font-size: 30px;
   color: #F2F4FF;
   display: flex;
   align-self: flex-end;
@@ -537,7 +541,8 @@ p.number__text {
 .col-contact__mail,
 .col-contact__number {
   display: flex;
-  flex-direction: row; }
+  flex-direction: row;
+  flex-wrap: wrap; }
 
 @media (max-width: 1024px) {
   .section-contact {
