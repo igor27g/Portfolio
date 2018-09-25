@@ -13,8 +13,8 @@ body {
 
 section {
     width: 100%;
-    height: 100vh;
-    margin-top: 60px;
+    height: auto;
+    
 }
 
 .container {
@@ -68,7 +68,8 @@ section.home {
         url(../images/bg1.png);
         background-size: cover;
         background-position: center;
-    margin-top: 56px;
+        margin-top: 56px;
+        height: 100vh;
 }
 
 
@@ -188,8 +189,9 @@ section.home {
 
 
 section.about-me {
-    height: 60vh;
     background-color: $color-dark-white;
+    padding-top: 50px;
+    padding-bottom: 30px;
 }
 
 @media (max-width:992px) {
@@ -209,6 +211,7 @@ section.about-me {
 
 .figure__img-1 {
     border-radius: 100%;
+   
 }
 
 
@@ -223,7 +226,8 @@ h2.col-about-2__heading-secondary {
 
 p.col-about-2__text {
     font-size: 20px;
-      color:#6195CC;
+    color:#6195CC;
+   
 }
 
 
@@ -255,7 +259,6 @@ p.col-about-2__text {
 
 section.skills {
         background-color: $color-blue;
-        height: 100vh;
         margin-top: 0;
 }
 
@@ -320,7 +323,8 @@ section.skills {
 /* ----------------------------------------------- */
 
 section.projects {
-        height: 100vh;
+    margin-top: 0;
+    padding-bottom: 50px;
 }
 
 
@@ -598,9 +602,10 @@ p.content__text-2 {
 /* ----------------------------------------------- */
 
 .section-contact {
-    height: 100vh;
+    padding-top: 50px;
+    padding-bottom: 50px;
     background-color: $color-blue;
-    margin-top: 500px;
+   
 }
 
 .col-contact__heading-secondary {
@@ -753,12 +758,6 @@ p.number__text {
     flex-wrap: wrap;
 }
 
-
-@media (max-width:1024px) {
-    .section-contact {
-    margin-top: 350px;
-}
-}
 
 @media (max-width:980px) {
     .section-contact {
