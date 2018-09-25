@@ -537,6 +537,7 @@ p.number__text {
     margin-top: 350px; } }
 @media (max-width: 980px) {
   .section-contact {
-    margin-top: 50px; } }
+    margin-top: 50px;
+    height: 100%; } }
 
 /*# sourceMappingURL=main.css.map */
