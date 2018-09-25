@@ -214,14 +214,14 @@ section.about-me {
 .col-about-2 {
     &__heading-secondary {
         font-size: 40px;
-        color: $color-blue;
+        color: #6195CC;
         text-transform: uppercase;
         margin-bottom: 20px;
     }
     
     &__text {
         font-size: 20px;
-        color:$color-blue;
+        color:#6195CC;
     }
 }
 
@@ -231,7 +231,6 @@ section.about-me {
    .col-about-2 {  
     &__text {
         font-size: 18px;
-        color:$color-blue;
     }
 }
     
