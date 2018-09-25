@@ -2,6 +2,7 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
   position: relative; }
 
 section {
@@ -130,7 +131,6 @@ section.about-me {
   align-items: center; }
 
 .figure__img-1 {
-  background-color: aqua;
   border-radius: 100%; }
 
 .col-about__heading-secondary {
@@ -171,7 +171,7 @@ section.skills {
   .col-skills__heading-secondary::after {
     content: '';
     display: block;
-    border: 2px solid  #F2F4FF;
+    border: 2px solid #F2F4FF;
     width: 400px;
     margin: 20px auto; }
 
@@ -219,7 +219,7 @@ section.projects {
   .col-projects__heading-secondary::after {
     content: '';
     display: block;
-    border: 2px solid  #6195CC;
+    border: 2px solid #6195CC;
     width: 400px;
     margin: 20px auto; }
 
@@ -449,11 +449,45 @@ p.content__text-2 {
   .col-contact__heading-secondary::after {
     content: '';
     display: block;
-    border: 2px solid  #F2F4FF;
+    border: 2px solid #F2F4FF;
     width: 400px;
     margin: 20px auto; }
 
-.row-contact-2__col-contact__github i.github__icon {
+.row-contact-2__col-contact-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-top: 28px; }
+
+@media (max-width: 992px) {
+  .col-contact-1__name {
+    margin-top: 10px;
+    margin-bottom: 10px; }
+  .col-contact-1__message {
+    margin-top: 10px;
+    margin-bottom: 10px; }
+  .col-contact-1__email {
+    margin-top: 10px;
+    margin-bottom: 10px; }
+  .col-contact-1__button-1 {
+    margin-top: 10px;
+    margin-bottom: 10px; } }
+.col-contact-1__name {
+  color: #000000;
+  padding-left: 5px; }
+.col-contact-1__message {
+  resize: none;
+  padding-left: 5px; }
+.col-contact-1__email {
+  padding-left: 5px; }
+.col-contact-1__button-1 {
+  color: #6195CC;
+  letter-spacing: 2px;
+  font-weight: bold; }
+  .col-contact-1__button-1:hover {
+    color: #406081; }
+
+.row-contact-2__col-contact-2__github i.github__icon {
   font-size: 45px;
   color: #F2F4FF;
   padding-bottom: 5px;
@@ -504,8 +538,5 @@ p.number__text {
 @media (max-width: 980px) {
   .section-contact {
     margin-top: 50px; } }
-@heading-tertiary {
-  font-size: 20px;
-  color: #F2F4FF; }
 
 /*# sourceMappingURL=main.css.map */
