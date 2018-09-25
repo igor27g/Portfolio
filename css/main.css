@@ -137,12 +137,13 @@ section.about-me {
 .figure__img-1 {
   border-radius: 100%; }
 
-.col-about-2__heading-secondary {
+h2.col-about-2__heading-secondary {
   font-size: 40px;
   color: #6195CC;
   text-transform: uppercase;
   margin-bottom: 20px; }
-.col-about-2__text {
+
+p.col-about-2__text {
   font-size: 20px;
   color: #6195CC; }
 

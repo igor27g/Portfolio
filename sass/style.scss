@@ -211,18 +211,19 @@ section.about-me {
     border-radius: 100%;
 }
 
-.col-about-2 {
-    &__heading-secondary {
-        font-size: 40px;
-        color: #6195CC;
-        text-transform: uppercase;
-        margin-bottom: 20px;
-    }
-    
-    &__text {
-        font-size: 20px;
-        color:#6195CC;
-    }
+
+
+
+h2.col-about-2__heading-secondary {
+    font-size: 40px;
+    color: #6195CC;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+p.col-about-2__text {
+    font-size: 20px;
+      color:#6195CC;
 }
 
 
