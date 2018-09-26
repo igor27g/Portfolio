@@ -283,6 +283,20 @@ section.skills {
         margin: 20px auto;
     }
 }
+
+
+@media (max-width:460px) {
+    
+    .col-skills__heading-secondary {
+      font-size: 35px;
+
+    &::after {       
+      width: 300px;  
+    }
+}
+    
+    
+}
     
 .col-skills {
     &__heading-tertiary {
@@ -350,6 +364,17 @@ section.projects {
         margin: 20px auto;
 
     }
+}
+
+
+@media (max-width:460px) {
+    .col-projects__heading-secondary {
+    font-size: 35px;
+
+    &::after {      
+    width: 300px;
+    }
+}
 }
 
 
@@ -624,6 +649,16 @@ p.content__text-2 {
     }   
 }
 
+
+@media (max-width:460px) {
+    .col-contact__heading-secondary {
+    font-size: 35px;
+    
+     &::after {
+        width: 300px;
+    }   
+}
+}
 
 .row-contact-2__col-contact-1 {
     display: flex;

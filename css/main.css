@@ -179,6 +179,11 @@ section.skills {
     width: 400px;
     margin: 20px auto; }
 
+@media (max-width: 460px) {
+  .col-skills__heading-secondary {
+    font-size: 35px; }
+    .col-skills__heading-secondary::after {
+      width: 300px; } }
 .col-skills__heading-tertiary {
   font-size: 30px;
   color: #F2F4FF;
@@ -228,6 +233,11 @@ section.projects {
     width: 400px;
     margin: 20px auto; }
 
+@media (max-width: 460px) {
+  .col-projects__heading-secondary {
+    font-size: 35px; }
+    .col-projects__heading-secondary::after {
+      width: 300px; } }
 .col-projects__project {
   width: 94%;
   margin: 20px;
@@ -458,6 +468,11 @@ p.content__text-2 {
     width: 400px;
     margin: 20px auto; }
 
+@media (max-width: 460px) {
+  .col-contact__heading-secondary {
+    font-size: 35px; }
+    .col-contact__heading-secondary::after {
+      width: 300px; } }
 .row-contact-2__col-contact-1 {
   display: flex;
   flex-direction: column;
