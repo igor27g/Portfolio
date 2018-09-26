@@ -274,40 +274,19 @@
 <div class="row-contact-2 row">
 <div class="col-lg-6 row-contact-2__col-contact-1">
 
-
-    <div id="formularz-kontaktowy" class="contact" role="dialog" aria-label="Formularz kontaktowy" aria-hidden="true">
-    <form class="emailForm" method="POST" action="https://formspree.io/igor.piotr.grabowski@gmail.com">
-        <label class="half" aria-live="polite">
-            Twój email
-            <input class="form-data" name="email" type="email" placeholder="E-mail" required>
-        </label>
-        <label class="half" aria-live="polite">
-            Temat
-            <input class="form-data" name="_subject" placeholder="Temat wiadomości" minlength="4" maxlength="78"
-                   required>
-        </label>
-        <label aria-live="polite">
-            Wiadomość
-            <textarea class="form-data" name="message" placeholder="Wiadomość" minlength="4"
-                      maxlength="6000" required></textarea>
-        </label>
-        <label class="recaptcha-label" aria-live="polite">
-            <div class="g-recaptcha" tabindex="-1" data-sitekey="6LezT3IUAAAAAHseUgyPQ2MjLBbPuhcuBvjLusRb"
-                 data-callback="recaptchaClearErr"></div>
-        </label>
-        <button class="emailFormSubmit main-btn" name="submit" type="submit">Wyślij</button>
-
+    <form class="col-contact-1__form emailForm" method="POST" action="https://formspree.io/igor.piotr.grabowski@gmail.com">
+        
+        <input  class="form-data form__name " name="name" type="text" placeholder="Imię i Nazwisko" required="required">
+        <input class="form-data  form__email" name="email" type="email" placeholder="E-mail" required>
+        <input class="form-data form__message-topic" name="_subject" placeholder="Temat wiadomości" minlength="4" maxlength="78" required>
+        <textarea class=" form-data form__message" name="message" placeholder="Napisz wiadomość" rows="5" minlength="4" maxlength="6000" required></textarea>
+        <div class="g-recaptcha" tabindex="-1" data-sitekey="6LezT3IUAAAAAHseUgyPQ2MjLBbPuhcuBvjLusRb" data-callback="recaptchaClearErr"></div>
+        <button class="emailFormSubmit form__button-1 btn btn-light  text-uppercase" name="submit" type="submit">Wyślij</button>
         <div class="emailFormAlert" aria-live="polite"></div>
+       
+       
     </form>
 
-    <button type="button" id="close-contact-btn" class="close-btn" aria-label="Zamknij formularz kontaktowy"
-            title="Zamknij formularz kontaktowy">
-        <i class="fa fa-times close-form"></i>
-    </button>
-    <button id="open-contact-btn" class="main-btn">
-    <i class="fa fa-envelope-o" aria-hidden="true"></i> Formularz kontaktowy
-</button>
-</div>
 <!--
     <input  class="col-contact-1__name" name="name" type="text" placeholder="Imię i Nazwisko" required="required">
     <input  class="col-contact-1__email" name="email" type="email" placeholder="Adres Mail" required="required">
