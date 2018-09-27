@@ -18,6 +18,13 @@ section {
 /* ----------------------------------------------- */
 /*    NAVIGATION */
 /* ----------------------------------------------- */
+.navbar {
+  background-color: #ffffff; }
+
+.navbar-collapse {
+  text-align: center;
+  text-transform: uppercase; }
+
 .navbar-light .navbar-nav .nav-link {
   color: #6195CC; }
 

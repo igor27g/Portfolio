@@ -32,6 +32,14 @@ section {
 /*    NAVIGATION */
 /* ----------------------------------------------- */
 
+.navbar {
+   background-color: $color-white;
+}
+
+.navbar-collapse {
+    text-align: center;
+    text-transform: uppercase;
+}
 
 
 .navbar-light .navbar-nav .nav-link {
