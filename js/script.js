@@ -1,6 +1,5 @@
-
-
-
+$(document).ready(function(){
+    
 // SMOOTH SCROLLING (from navbar to section)
 
 // Select all links with hashes
@@ -79,3 +78,4 @@ $('.js--wp-1').waypoint(function(direction) {
    $('.js--wp-1').addClass('animated fadeIn'); 
 });
 
+});

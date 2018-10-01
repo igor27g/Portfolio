@@ -720,26 +720,6 @@ button.form__button-1 {
         }
 }
     
-//    &__message {
-//       
-//    }
-//    
-//    &__email {
-//      
-//    }
-//    
-//    &__button-1 {
-//        color: $color-blue;
-//        letter-spacing: 2px;
-//        font-weight: bold;
-//        margin-top: 10px;
-//        margin-bottom: 10px;
-//      
-//        &:hover {
-//            color: $color-dark-blue;
-//        }
-//    }
-
 
 .row-contact-2__col-contact-2 {
     &__github {
@@ -753,6 +733,7 @@ button.form__button-1 {
 }
 
 i.github__icon,
+i.linkedin__icon,
 i.CV__icon,
 i.mail__icon,
 i.number__icon {
@@ -764,7 +745,7 @@ i.number__icon {
 }
 
 i.number__icon {
-     font-size: 45px;
+    font-size: 45px;
     color:  $color-dark-white;
     padding-bottom:5px;
     padding-top: 25px;
@@ -773,6 +754,7 @@ i.number__icon {
 
 
 a.github--link,
+a.linkedin--link,
 a.CV--link
  {
     font-size: 30px;
