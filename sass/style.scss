@@ -628,6 +628,18 @@ p.content__text-2 {
         height: 100%;
 }
 
+@media (max-width:580px) {
+    .container-fluid {
+        padding-left: 0px;
+        background-color: red;
+    }
+    
+    
+    .container-1 {
+        padding-left: 4px !important;
+    }
+    }
+    
 }
 
 /* ----------------------------------------------- */
@@ -635,7 +647,7 @@ p.content__text-2 {
 /* ----------------------------------------------- */
 
 .section-contact {
-    padding-top: 50px;
+    padding-top: 15px;
     padding-bottom: 50px;
     background-color: $color-blue;
    
@@ -645,7 +657,7 @@ p.content__text-2 {
     font-size: 40px;
     color: $color-dark-white;
     text-transform: uppercase;
-    padding: 50px 0;
+    padding: 15px 0;
     letter-spacing: 5px;
     
      &::after {
