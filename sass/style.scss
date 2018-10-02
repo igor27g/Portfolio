@@ -629,6 +629,12 @@ p.content__text-2 {
 }
 }
 
+@media (max-width: 580px) {
+    .container-fluid {
+        padding-left: 0px;
+        padding-right: 17px;
+    }
+}
 
 
 /* ----------------------------------------------- */
