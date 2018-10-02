@@ -454,11 +454,18 @@ p.content__text-2 {
 @media (max-width: 992px) {
   section.projects {
     height: 100%; } }
+@media (max-width: 992px) and (max-width: 580px) {
+  .container-fluid {
+    padding-left: 0px;
+    background-color: red; }
+
+  .container-1 {
+    padding-left: 4px !important; } }
 /* ----------------------------------------------- */
 /* SECTION-CONTACT */
 /* ----------------------------------------------- */
 .section-contact {
-  padding-top: 50px;
+  padding-top: 15px;
   padding-bottom: 50px;
   background-color: #6195CC; }
 
@@ -466,7 +473,7 @@ p.content__text-2 {
   font-size: 40px;
   color: #F2F4FF;
   text-transform: uppercase;
-  padding: 50px 0;
+  padding: 15px 0;
   letter-spacing: 5px; }
   .col-contact__heading-secondary::after {
     content: '';
@@ -526,6 +533,7 @@ button.form__button-1 {
   padding-top: 25px; }
 
 i.github__icon,
+i.linkedin__icon,
 i.CV__icon,
 i.mail__icon,
 i.number__icon {
@@ -543,10 +551,12 @@ i.number__icon {
   padding-right: 20px; }
 
 a.github--link,
+a.linkedin--link,
 a.CV--link {
   font-size: 30px;
   color: #F2F4FF; }
   a.github--link:hover,
+  a.linkedin--link:hover,
   a.CV--link:hover {
     color: rgba(28, 92, 159, 0.8);
     text-decoration: none; }
