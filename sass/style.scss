@@ -241,9 +241,16 @@ p.col-about-2__text {
 
 @media (max-width: 576px) {
     
+    h2.col-about-2__heading-secondary {
+    text-align: center;
+    margin-bottom: 10px;
+}
+    
+    
    .col-about-2 {  
     &__text {
         font-size: 18px;
+       
     }
 }
     
@@ -255,6 +262,7 @@ p.col-about-2__text {
          
     &__text {
         font-size: 15px;
+        padding-left: 5px;
     }
 }
     
