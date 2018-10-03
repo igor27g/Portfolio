@@ -1,21 +1,21 @@
 /*
 Error: Undefined variable: "$color-white".
-        on line 36 of C:\Users\Tadeusz\Desktop\Portfolio\sass\style.scss
+        on line 42 of C:\Users\Tadeusz\Desktop\Portfolio\sass\style.scss
 
-31: /* ----------------------------------------------- *\/
-32: /*    NAVIGATION *\/
-33: /* ----------------------------------------------- *\/
-34: 
-35: .navbar {
-36:    background-color: $color-white;
-37: }
-38: 
-39: .navbar-collapse {
-40:     text-align: center;
-41:     text-transform: uppercase;
+37: /* ----------------------------------------------- *\/
+38: /*    NAVIGATION *\/
+39: /* ----------------------------------------------- *\/
+40: 
+41: .navbar {
+42:    background-color: $color-white;
+43: }
+44: 
+45: .navbar-collapse {
+46:     text-align: center;
+47:     text-transform: uppercase;
 
 Backtrace:
-C:\Users\Tadeusz\Desktop\Portfolio\sass\style.scss:36
+C:\Users\Tadeusz\Desktop\Portfolio\sass\style.scss:42
 D:/Igor Projekty/landing/rubygems/gems/sass-3.5.2/lib/sass/script/tree/variable.rb:49:in `_perform'
 D:/Igor Projekty/landing/rubygems/gems/sass-3.5.2/lib/sass/script/tree/node.rb:50:in `perform'
 D:/Igor Projekty/landing/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:402:in `visit_prop'
@@ -62,4 +62,4 @@ D:/Igor Projekty/landing/bin/sass:22:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$color-white\".\A         on line 36 of C:\Users\Tadeusz\Desktop\Portfolio\sass\style.scss\A \A 31: /* ----------------------------------------------- */\A 32: /*    NAVIGATION */\A 33: /* ----------------------------------------------- */\A 34: \A 35: .navbar {\A 36:    background-color: $color-white;\A 37: }\A 38: \A 39: .navbar-collapse {\A 40:     text-align: center;\A 41:     text-transform: uppercase;"; }
+  content: "Error: Undefined variable: \"$color-white\".\A         on line 42 of C:\Users\Tadeusz\Desktop\Portfolio\sass\style.scss\A \A 37: /* ----------------------------------------------- */\A 38: /*    NAVIGATION */\A 39: /* ----------------------------------------------- */\A 40: \A 41: .navbar {\A 42:    background-color: $color-white;\A 43: }\A 44: \A 45: .navbar-collapse {\A 46:     text-align: center;\A 47:     text-transform: uppercase;"; }
