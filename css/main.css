@@ -72,6 +72,9 @@ section.home {
     @media (max-width: 400px) {
       .col-home__heading-primary {
         font-size: 30px; } }
+    @media (max-width: 320px) {
+      .col-home__heading-primary {
+        font-size: 20px; } }
   .col-home__button {
     width: 300px;
     padding: 15px 30px;
@@ -84,6 +87,9 @@ section.home {
     @media (max-width: 400px) {
       .col-home__button {
         width: 250px; } }
+    @media (max-width: 350px) {
+      .col-home__button {
+        width: 200px; } }
     .col-home__button:active {
       transform: translateY(-3px);
       box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2); }
@@ -194,7 +200,7 @@ section.skills {
       font-size: 35px; } }
   @media (max-width: 320px) {
     .col-skills__heading-secondary {
-      font-size: 25px;
+      font-size: 21px;
       padding-left: 20px; } }
   .col-skills__heading-secondary::after {
     content: '';
@@ -368,7 +374,7 @@ a.card__button-2--link {
 input.form__name {
   color: #000000;
   padding: 5px;
-  margin-top: 10px;
+  margin-top: 7px;
   margin-bottom: 5px;
   padding-bottom: 10px; }
 
@@ -411,21 +417,26 @@ i.number__icon {
   font-size: 45px;
   color: #F2F4FF;
   padding-bottom: 5px;
-  padding-top: 25px;
+  padding-top: 23px;
   padding-right: 10px; }
 
 i.number__icon {
   font-size: 45px;
   color: #F2F4FF;
   padding-bottom: 5px;
-  padding-top: 25px;
+  padding-top: 24px;
   padding-right: 20px; }
+
+.col-contact__github,
+.col-contact__CV {
+  display: flex; }
 
 a.github--link,
 a.linkedin--link,
 a.CV--link {
   font-size: 30px;
-  color: #F2F4FF; }
+  color: #F2F4FF;
+  padding-top: 25px; }
   a.github--link:hover,
   a.linkedin--link:hover,
   a.CV--link:hover {
@@ -438,17 +449,14 @@ p.number__text {
   color: #F2F4FF;
   display: flex;
   align-self: flex-end;
-  margin-bottom: 0; }
+  margin-bottom: 0;
+  height: 49px; }
 
 @media (max-width: 577px) {
   p.mail__text,
   p.number__text {
     font-size: 25px; } }
 @media (max-width: 430px) {
-  a.github--link,
-  a.CV--link {
-    font-size: 15px; }
-
   p.mail__text,
   p.number__text {
     font-size: 15px; } }
