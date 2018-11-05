@@ -186,7 +186,8 @@ section.skills {
 
 .row-skills-1,
 .row-skills-2,
-.row-skills-3 {
+.row-skills-3,
+.row-skills-4 {
   text-align: center; }
 
 .col-skills__heading-secondary {
@@ -222,6 +223,11 @@ i.technologies__icons {
   font-size: 45px;
   color: #F2F4FF;
   padding-bottom: 5px;
+  padding-top: 25px; }
+
+img.technologies__icons {
+  font-size: 45px;
+  color: #F2F4FF;
   padding-top: 25px; }
 
 img.col-technologies__logo {
