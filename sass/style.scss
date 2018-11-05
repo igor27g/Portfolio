@@ -284,7 +284,8 @@ section.skills {
 
 .row-skills-1,
 .row-skills-2,
-.row-skills-3 {
+.row-skills-3,
+.row-skills-4  {
     text-align: center;
 }
 
@@ -332,6 +333,12 @@ i.technologies__icons {
     font-size: 45px;
     color:  $color-dark-white;
     padding-bottom:5px;
+    padding-top: 25px;
+}
+
+img.technologies__icons {
+    font-size: 45px;
+    color:  $color-dark-white;
     padding-top: 25px;
 }
 
